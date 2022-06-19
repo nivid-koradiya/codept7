@@ -46,7 +46,7 @@ Make a change in your file and instantaneously see your updates!
 python manage.py -runserver 127.0.0.1:8000
 ```
 
-> Note: ip can be set to `0.0.0.0' for local address access to the web-server.
+> Note: ip can be set to `0.0.0.0' for local network access to the web-server.
 
 Verify the deployment by navigating to your server address in
 your preferred browser.
