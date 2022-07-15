@@ -13,3 +13,9 @@ urlpatterns = [
 urlpatterns+= staticfiles_urlpatterns() 
 if settings.DEBUG:  # new
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+#DJANGO admin site settings
+admin.site.site_header = "Codept7 Admin"
+admin.site.site_title = "Codept7 Admin Site"
+admin.site.index_title = "Welcome to Codept Analyzer Site"
