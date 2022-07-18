@@ -18,4 +18,4 @@ if settings.DEBUG:  # new
 #DJANGO admin site settings
 admin.site.site_header = "Codept7 Admin"
 admin.site.site_title = "Codept7 Admin Site"
-admin.site.index_title = "Welcome to Codept Analyzer Site"
+admin.site.index_title = "Welcome to Codept Management Site"
